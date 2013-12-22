@@ -1,0 +1,16 @@
+{
+	"installed_packages":
+	[
+		"Better CoffeeScript",
+		"DocBlockr",
+		"Emmet",
+		"File Navigator",
+		"Git",
+		"GitGutter",
+		"HTML5",
+		"Python PEP8 Autoformat",
+		"SublimeCodeIntel",
+		"SublimeREPL",
+		"VCS Gutter"
+	]
+}

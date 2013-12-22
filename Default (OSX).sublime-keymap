@@ -1,0 +1,17 @@
+[
+	{
+		"keys": ["tab"], "command": "extend_heading",
+		"context":
+		[
+			{ "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
+		]
+	},
+
+	// Override for SublimeCodeIntel
+	{ "keys": ["alt+ctrl+up"], "command": "goto_python_definition"},
+	{ "keys": ["alt+ctrl+down"], "command": "back_to_python_definition"},
+
+	// Override for Navigation Plugin
+	{ "keys": ["ctrl+alt+left"], "command": "navigation_history_back"},
+  	{ "keys": ["ctrl+alt+right"], "command": "navigation_history_forward"}
+]

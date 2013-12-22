@@ -1,0 +1,10 @@
+{
+	"color_scheme": "Packages/User/BzzzBlack.tmTheme",
+	"font_size": 15.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"save_on_focus_lost": false,
+	"scroll_past_end": true
+}
