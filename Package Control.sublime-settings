@@ -8,7 +8,9 @@
 		"Git",
 		"GitGutter",
 		"HTML5",
+		"JSHint",
 		"Python PEP8 Autoformat",
+		"SCSS",
 		"SublimeCodeIntel",
 		"SublimeREPL",
 		"VCS Gutter"

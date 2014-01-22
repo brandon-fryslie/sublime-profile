@@ -6,6 +6,7 @@
 			{ "key": "selector", "operator": "equal", "operand": "text.html.markdown" }
 		]
 	},
+	{ "keys": ["alt+super+up"], "command": "open_related_file" },
 
 	// Override for SublimeCodeIntel
 	{ "keys": ["alt+ctrl+up"], "command": "goto_python_definition"},
