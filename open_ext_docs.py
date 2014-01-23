@@ -12,8 +12,6 @@ class OpenExtDocCommand(sublime_plugin.TextCommand):
 
             syntax = self.view.scope_name(region.begin())
 
-            print('doing: ', syntax)
-
             if re.search(r"(parameter\.url|string\.quoted\.(double|single))", syntax):
 
                 ext_object = view.substr(view.extract_scope(region.begin())).strip('\'"')
@@ -24,7 +22,6 @@ class OpenExtDocCommand(sublime_plugin.TextCommand):
                 if is_ext_object_re.search(ext_object):
 
                     webbrowser.open_new_tab(url_to_open)
-                    print('trying to open: ', url_to_open)
 
                 else:
                     
