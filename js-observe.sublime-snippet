@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-Ext.util.Observable.capture(this, function(e) {console.log(e)});
+Ext.util.Observable.capture(${1:this}, function(e) {console.log(e)});
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>observe</tabTrigger>

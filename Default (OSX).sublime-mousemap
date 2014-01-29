@@ -1,23 +1,15 @@
 [
 	{ 
 		"button": "button1", 
-		"modifiers": ["ctrl"], 
+		"modifiers": ["ctrl", "shift"], 
 		"command": "open_ext_file", 
-		"press_command": "drag_select",
-		"context":
-		[
-			{ "key": "selector", "operator": "equal", "operand": "source.js" }
-		]
+		"press_command": "drag_select"
 	},
 	{ 
 		"button": "button1", 
 		"modifiers": ["ctrl"], 
 		"command": "goto_definition", 
-		"press_command": "drag_select",
-		"context":
-		[
-			{ "key": "selector", "operator": "equal", "operand": "source.js" }
-		]
+		"press_command": "drag_select"
 	},
 	{ 
 		"button": "button3", 
