@@ -14,5 +14,7 @@
 
 	// Override for Navigation Plugin
 	{ "keys": ["ctrl+alt+left"], "command": "navigation_history_back"},
-  	{ "keys": ["ctrl+alt+right"], "command": "navigation_history_forward"}
+  	{ "keys": ["ctrl+alt+right"], "command": "navigation_history_forward"},
+
+  	{"keys": ["ctrl+shift+'"], "command": "switch_quotes"}
 ]
