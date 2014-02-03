@@ -16,5 +16,7 @@
 	{ "keys": ["ctrl+alt+left"], "command": "navigation_history_back"},
   	{ "keys": ["ctrl+alt+right"], "command": "navigation_history_forward"},
 
-  	{"keys": ["ctrl+shift+'"], "command": "switch_quotes"}
+  	{"keys": ["ctrl+shift+'"], "command": "switch_quotes"},
+
+	{"keys": ["ctrl+super+s"], "command": "open_spec_file"}
 ]

@@ -15,10 +15,7 @@ class GotoSuperclassMethodCommand(sublime_plugin.TextCommand):
             # navigate up hierarchy until superclass implementing method is found
             # navigate to method in superclass
 
-
             extend_region = self.view.find(r'extend: ['"](Rally|Ext)\.')
-
-
 
             file_to_open = view.substr(view.extract_scope(region.begin())).strip('\'"')
 
