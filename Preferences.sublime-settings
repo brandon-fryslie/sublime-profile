@@ -8,5 +8,10 @@
 	],
 	"save_on_focus_lost": false,
 	"scroll_past_end": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	]
 }
