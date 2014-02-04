@@ -2,5 +2,9 @@
   {
     "caption": "Extend heading",
     "command": "extend_heading"
+  },
+  {
+  	"caption": "Run Spec with Jasmine",
+  	"command": "run_spec_with_jasmine"
   }
 ]

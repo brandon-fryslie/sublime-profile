@@ -1,7 +1,7 @@
 import sublime, sublime_plugin, re, os.path, subprocess
 
 def run_command(args):
-    TEST = 1
+    TEST = 0
 
     if TEST:
         print('=>', ' '.join(args))
@@ -18,7 +18,7 @@ def run_command(args):
 
         return (result, err, proc.returncode)
 
-class ConfigureJasmineToRunSpecCommand(sublime_plugin.TextCommand):
+class RunSpecWithJasmineCommand(sublime_plugin.TextCommand):
 
     def run(self, edit):
         window = sublime.active_window()
@@ -30,6 +30,8 @@ class ConfigureJasmineToRunSpecCommand(sublime_plugin.TextCommand):
         file_name = os.path.basename(file_name)
 
         (result, err, _) = run_command(['grunt', 'test:fastconf', '--jsspec=' + file_name])
+
+        window.run_command('browser_refresh', {"delay": 0})
 
         print(result)
         print(err)

@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"Better CoffeeScript",
+		"Browser Refresh",
 		"DocBlockr",
 		"Emmet",
 		"File Navigator",

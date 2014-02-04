@@ -18,5 +18,7 @@
 
   	{"keys": ["ctrl+shift+'"], "command": "switch_quotes"},
 
-	{"keys": ["ctrl+super+s"], "command": "open_spec_file"}
+	{"keys": ["ctrl+super+s"], "command": "open_spec_file"},
+
+	{"keys": ["ctrl+super+r"], "command": "run_spec_with_jasmine"}
 ]
