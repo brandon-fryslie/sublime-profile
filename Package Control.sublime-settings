@@ -1,6 +1,7 @@
 {
 	"installed_packages":
 	[
+		"Alignment",
 		"Better CoffeeScript",
 		"Browser Refresh",
 		"DocBlockr",
@@ -10,6 +11,7 @@
 		"GitGutter",
 		"Grunt",
 		"HTML5",
+		"Jade",
 		"JSHint",
 		"Python PEP8 Autoformat",
 		"SCSS",

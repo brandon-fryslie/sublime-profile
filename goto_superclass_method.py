@@ -1,6 +1,6 @@
 import sublime, sublime_plugin, re, os.path
 
-window = sublime.active_window()
+
 
 
 class GotoSuperclassMethodCommand(sublime_plugin.TextCommand):
@@ -30,6 +30,7 @@ class GotoSuperclassMethodCommand(sublime_plugin.TextCommand):
         return os.path.join(base_path, file_name)
 
     def open_window_for_file(self, file_name):
+        sublime.active_window()
 
         if os.path.isfile(file_name):
 
@@ -42,11 +43,7 @@ class GotoSuperclassMethodCommand(sublime_plugin.TextCommand):
             print('could not find file', file_name)
 
 
-
-
     def run(self, edit):
-        window = sublime.active_window()
-        view = self.view
 
         superclass_name = self.get_superclass_name()
 
