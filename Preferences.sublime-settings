@@ -1,7 +1,5 @@
 {
 	"color_scheme": "Packages/User/BzzzBlack.tmTheme",
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
 	"font_size": 12.0,
 	"ignored_packages":
 	[
@@ -15,5 +13,7 @@
 	],
 	"save_on_focus_lost": false,
 	"scroll_past_end": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }

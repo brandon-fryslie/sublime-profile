@@ -2,7 +2,7 @@
 	{
 		"button": "button1",
 		"modifiers": ["ctrl", "shift"],
-		"command": "open_ext_file",
+		"command": "mouseclick_dispatch",
 		"press_command": "drag_select"
 	},
 	{

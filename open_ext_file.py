@@ -1,8 +1,14 @@
 import sublime, sublime_plugin, re, os.path
 
+import User.toolbox
+from User.toolbox import Toolbox, p
+
 class OpenExtFileCommand(sublime_plugin.TextCommand):
 
   def run(self, edit):
+    p('open ext file')
+
+
     window = sublime.active_window()
     view = self.view
 
@@ -31,4 +37,4 @@ class OpenExtFileCommand(sublime_plugin.TextCommand):
 
         else:
 
-          print('could not find file', file_to_open)
+          p('could not find file', file_to_open)
