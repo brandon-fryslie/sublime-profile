@@ -33,7 +33,14 @@ class GotoLinkInHtmlCommand(sublime_plugin.TextCommand):
 
     file_name = self.toolbox.get_scope_content()
 
+    file_name = file_name.strip('\'\'""/')
+
     file_name = self.toolbox.find_file(file_name.strip('\'\'""/'))
+
+    if re.search(".js$", file_name):
+      coffee_file = file_name.rstrip(".js") + '.coffee'
+      if os.path.isfile(coffee_file):
+        file_name = coffee_file
 
     if file_name is None:
       p('countnt find a file! make find better')
