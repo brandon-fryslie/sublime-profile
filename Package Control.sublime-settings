@@ -16,10 +16,13 @@
 		"LESS",
 		"Python PEP8 Autoformat",
 		"Quick File Move",
+		"RSpec",
 		"SCSS",
 		"SFTP",
+		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeREPL",
-		"VCS Gutter"
+		"VCS Gutter",
+		"View In Browser"
 	]
 }

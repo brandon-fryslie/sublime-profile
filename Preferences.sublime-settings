@@ -1,5 +1,9 @@
 {
 	"color_scheme": "Packages/User/BzzzBlack.tmTheme",
+	"folder_exclude_patterns":
+	[
+		"node_modules"
+	],
 	"font_size": 12.0,
 	"ignored_packages":
 	[
@@ -11,9 +15,14 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"save_on_focus_lost": false,
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": true,
 	"scroll_past_end": true,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
+	"show_minimap": false,
 	"trim_trailing_white_space_on_save": true
 }
