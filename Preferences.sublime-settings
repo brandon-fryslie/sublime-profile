@@ -7,8 +7,8 @@
 	"font_size": 12.0,
 	"ignored_packages":
 	[
-		"SFTP",
-		"Vintage"
+		"Vintage",
+		"SFTP"
 	],
 	"indent_guide_options":
 	[
@@ -21,8 +21,8 @@
 	],
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
+	"show_minimap": false,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
-	"show_minimap": false,
 	"trim_trailing_white_space_on_save": true
 }

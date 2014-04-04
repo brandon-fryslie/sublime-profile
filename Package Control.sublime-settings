@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Anaconda",
 		"Better CoffeeScript",
 		"Browser Refresh",
 		"DocBlockr",
