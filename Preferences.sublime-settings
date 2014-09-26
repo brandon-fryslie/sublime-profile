@@ -8,7 +8,16 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"SFTP"
+		"HTML5",
+		"SFTP",
+		"Markdown",
+		"SublimeCodeIntel",
+		"Jade",
+		"Vintage",
+		"hextoASCII",
+		"SCSS",
+		"Clickable URLs",
+		"Browser Refresh"
 	],
 	"indent_guide_options":
 	[
