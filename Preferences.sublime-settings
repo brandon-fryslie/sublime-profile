@@ -1,12 +1,10 @@
 {
-	"color_scheme": "Packages/User/BzzzBlack.tmTheme",
-	"folder_exclude_patterns":
-	[
-		"node_modules"
-	],
-	"font_size": 12.0,
+	"color_scheme": "Packages/User/SublimeLinter/BzzzBlack (SL).tmTheme",
+	"font_size": 13.0,
 	"ignored_packages":
 	[
+		"SCSS",
+		"Jade",
 		"Vintage",
 		"HTML5",
 		"SFTP",
@@ -18,11 +16,24 @@
 		"SCSS",
 		"Clickable URLs",
 		"Browser Refresh"
+		"Browser Refresh",
+		"SFTP",
+		"hextoASCII",
+		"HTML5",
+		"Markdown",
+		"Clickable URLs",
+		"SublimeCodeIntel"
 	],
 	"indent_guide_options":
 	[
 		"draw_normal",
 		"draw_active"
+	],
+	"index_exclude_patterns":
+	[
+		"/Users/bfryslie/projects/pigeon/logs*",
+		"/Users/bfryslie/projects/alm/alm-tool-loadtest*",
+		"*.log"
 	],
 	"rulers":
 	[

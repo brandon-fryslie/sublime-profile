@@ -1,0 +1,59 @@
+[{
+        "class": "sidebar_container",
+        "layer0.tint": [60, 60, 60],
+        "layer0.opacity": 1.0,
+        "layer0.draw_center": false,
+        "layer0.inner_margin": [0, 0, 1, 0],
+        "content_margin": [0, 0, 1, 0]
+    },
+    {
+            "class": "sidebar_tree",
+            "row_padding": [8, 2.6],
+            "indent": 12,
+            "indent_offset": 14,
+            "indent_top_level": false,
+            "layer0.tint": [39, 40, 34],
+            "layer0.opacity": 1.0,
+            "dark_content": false
+        },
+        {
+            "class": "sidebar_heading",
+            "color": [200, 200, 200],
+            "font.bold": false,
+            "shadow_color": [0, 0, 0],
+            "shadow_offset": [0, 1]
+        },
+        {
+               "class": "sidebar_label",
+               "color": [0, 0, 0],
+               "font.bold": false,
+               "font.size": 14
+           },
+        {
+            "class": "sidebar_label",
+            "color": [135, 135, 135],
+            "font.size": 13
+        },
+        {
+            "class": "sidebar_label",
+            "settings": ["defaultplus_sidebar_brightfont"],
+            "color": [200, 200, 200]
+        },
+        {
+            "class": "sidebar_label",
+            "settings": ["defaultplus_sidebar_medfont"],
+            "font.size": 13
+        },
+        {
+            "class": "sidebar_label",
+            "settings": ["defaultplus_sidebar_largefont"],
+            "font.size": 15
+        },
+        {
+
+            "class": "sidebar_label",
+            "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+            "color": [255, 255, 255]
+            // , "shadow_color": [60, 60, 60], "shadow_offset": [0, 1]
+        },
+  ]
