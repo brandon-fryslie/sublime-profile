@@ -5,6 +5,7 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Babel",
 		"Base Encoder",
 		"Better CoffeeScript",
 		"BracketHighlighter",
@@ -34,6 +35,9 @@
 		"SFTP",
 		"SideBarEnhancements",
 		"SideBarGit",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-jsxhint",
 		"SublimeREPL",
 		"Terminal",
 		"TerminalProjectFolder",
