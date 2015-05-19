@@ -1,27 +1,14 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/BzzzBlack (SL).tmTheme",
+	"color_scheme": "Packages/User/BzzzBlack.tmTheme",
 	"font_size": 13.0,
 	"ignored_packages":
 	[
 		"SCSS",
-		"Jade",
-		"Vintage",
-		"HTML5",
-		"SFTP",
-		"Markdown",
-		"SublimeCodeIntel",
-		"Jade",
 		"Vintage",
 		"hextoASCII",
-		"SCSS",
-		"Clickable URLs",
-		"Browser Refresh",
-		"SFTP",
-		"hextoASCII",
-		"HTML5",
 		"Markdown",
-		"Clickable URLs",
-		"SublimeCodeIntel"
+		"HTML5",
+		"Clickable URLs"
 	],
 	"indent_guide_options":
 	[

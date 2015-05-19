@@ -1,7 +1,6 @@
 {
 	"in_process_packages":
 	[
-		"Enhanced Clojure"
 	],
 	"installed_packages":
 	[
@@ -9,7 +8,6 @@
 		"Base Encoder",
 		"Better CoffeeScript",
 		"BracketHighlighter",
-		"Browser Refresh",
 		"Clickable URLs",
 		"ColorPicker",
 		"DocBlockr",
@@ -20,7 +18,6 @@
 		"Grunt",
 		"hextoASCII",
 		"HTML5",
-		"Jade",
 		"JavaScriptNext - ES6 Syntax",
 		"JSHint",
 		"JSX",
@@ -37,9 +34,6 @@
 		"SFTP",
 		"SideBarEnhancements",
 		"SideBarGit",
-		"SublimeLinter",
-		"SublimeLinter-jshint",
-		"SublimeLinter-jsxhint",
 		"SublimeREPL",
 		"Terminal",
 		"TerminalProjectFolder",
