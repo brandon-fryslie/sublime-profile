@@ -1,13 +1,13 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/BzzzBlack (SL).tmTheme",
-	"font_size": 13.0,
+	"font_size": 14.0,
 	"ignored_packages":
 	[
-		"HTML5",
-		"Markdown",
-		"Vintage",
-		"Clickable URLs",
 		"hextoASCII",
+		"HTML5",
+		"Clickable URLs",
+		"Vintage",
+		"Markdown",
 		"SCSS"
 	],
 	"indent_guide_options":
@@ -17,6 +17,7 @@
 	],
 	"index_exclude_patterns":
 	[
+		"/Users/bfryslie/projects/appsdk/lib*",
 		"/Users/bfryslie/projects/pigeon/logs*",
 		"/Users/bfryslie/projects/alm/alm-tool-loadtest*",
 		"*.log"
