@@ -16,5 +16,8 @@
 
 	{"keys": ["ctrl+super+s"], "command": "open_spec_file"},
 
-	{"keys": ["ctrl+super+r"], "command": "run_spec_with_jasmine"}
+	{"keys": ["ctrl+super+r"], "command": "run_spec_with_jasmine"},
+
+	{ "keys": ["alt+super+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/InsertSemicolonAndNewline.sublime-macro"} },
+	{ "keys": ["alt+super+;"], "command": "run_macro_file", "args": {"file": "Packages/User/InsertSemicolonAtEnd.sublime-macro"} }
 ]
